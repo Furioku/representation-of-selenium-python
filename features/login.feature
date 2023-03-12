@@ -1,5 +1,4 @@
 Feature: We would like to check login page:
-develop2
 1. Please verify if cookies banner appears and work correctly
 2. Check if loging feature works
 

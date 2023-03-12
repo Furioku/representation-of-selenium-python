@@ -5,7 +5,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from helpers import *
 from url_list import *
-develop2
 from test_data import *
 from environment import *
 
