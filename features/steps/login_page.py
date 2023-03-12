@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from helpers import *
 from url_list import *
+develop2
 from test_data import *
 from environment import *
 
@@ -17,6 +18,7 @@ LOGIN_BTN = "//button[@id = 'loginbutton']"
 @given('User start at login page')
 def open_login_page(context):
     open_page(context, login_page_url)
+
 
 @then('User is able to see cookies information banner and verify text in title banner')
 def cookies_banner_present(context):
