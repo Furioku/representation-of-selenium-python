@@ -1,4 +1,3 @@
 #cache
-develop2
 features/__pycache__/*
 features/steps/__pycache__/*
