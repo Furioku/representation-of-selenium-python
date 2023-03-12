@@ -12,7 +12,7 @@ This repo contains automated e2e tests for facebook messenger in selenium python
 behave
 
 # To run specific feature
-behave features/about.feature
+behave features/login.feature
 
 # To re-run failing features
 behave "@rerun_failing.features"  
