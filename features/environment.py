@@ -15,9 +15,9 @@ def open_page(context, env_url):
 
 def create_driver():
     options = Options()
-    #comment 2 lines below to open browser in visible state
-    # options.add_argument('--headless')
-    # options.add_argument('--disable-gpu')
+    #comment 2 lines below to open browser in visible state (non headless)
+    options.add_argument('--headless')
+    options.add_argument('--disable-gpu')
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
     options.add_argument("lang=en-GB")
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36")
