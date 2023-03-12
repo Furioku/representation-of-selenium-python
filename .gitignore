@@ -1,3 +1,3 @@
 #cache
-features/steps/pycache/*
-features/pycache/*
+features/__pycache__/*
+features/steps/__pycache__/*
